@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.ingles-icon, .items-nav-redirects, .dark-mode-icon {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.ingles-icon, .dark-mode-icon {
+    cursor: pointer;
+}
+
+.items-nav-redirects a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black; /* Color inicial para el modo claro */
+}
+
+/* Estilos para el modo oscuro */
+body.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+body.dark-mode .items-nav-redirects a {
+    color: white;
+}
