@@ -1,32 +1,36 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styles/style.css" />
-    <link rel="icon" href="img/logo.png" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/logo.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
     <title>Juan Rendon Dev</title>
-  </head>
-
-  <header>
+    <script defer src="/js/dark-mode.js"></script>
+</head>
+<header>
     <div class="ingles-icon">ES</div>
     <div class="items-nav-redirects">
-      <a href="#sobreMi">Sobre mí</a>
-      <a href="#hojaDeVida">Hoja de vida</a>
-      <a href="#portafolio">Portafolio</a>
-      <a href="#contactame">Contáctame</a>
+        <div class="nav-links"> 
+          <a href="#sobreMi">Sobre mí</a>
+          <a href="#hojaDeVida">Hoja de vida</a>
+          <a href="#portafolio">Portafolio</a>
+          <a href="#contactame">Contáctame</a>
+        </div>
+      </div>
+      
+    <div class="dark-mode-icon">
+        <img src="img/luna.png" alt="Modo oscuro" class="moon-icon">
+        <input type="checkbox" id="darkModeSwitch" class="toggle-switch"/>
+        <label for="darkModeSwitch" class="switch-label"></label>
     </div>
-    <div class="dark-mode-icon" onclick="toggleDarkMode()">🌓</div>
-  </header>
-
-  <body>
+</header>
+<body>
     <section class="introduccion-container">
 
     </section>
-    
-    <script src="/js/dark-mode.js"></script>    
-  </body>
+</body>
 </html>
