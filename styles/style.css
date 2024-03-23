@@ -46,25 +46,16 @@ header {
   height: 40px;
 }
 
-.items-nav-redirects {
-  display: flex;
-  justify-content: center;
-  flex-grow: 1;
-  padding: 10px 0;
-}
-
 .nav-links {
   display: flex;
   border: 1px solid black; 
   border-radius: 10px;
-  padding: 5px 10px;
-}
-
-.items-nav-redirects a {
-  margin: 0 15px;
-  text-decoration: none;
-  color: black;
-  font-weight: 500;
+  padding: 1px 10px;
+  position: relative; 
+  justify-content: center;
+  gap: 30px; 
+  padding-bottom: 4px;
+  height: 40px;
 }
 
 .toggle-switch {
@@ -105,10 +96,39 @@ body.dark-mode {
   color: white;
 }
 
-body.dark-mode .items-nav-redirects a {
-  color: white;
-}
-
 body.dark-mode .nav-links {
   border-color: white;
+}
+
+.indicator-bar {
+  position: absolute;
+  bottom: 0;
+  border-radius: 15px;
+  height: 4px;
+  background-color: #2196f3;
+  transition: all 0.3s ease; 
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  padding: 5px 0;
+} 
+
+.nav-links a:hover {
+  color: #2196f3;
+  transform: scale(1.1);
+}
+
+body.dark-mode .nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  padding: 5px 0;
+} 
+
+body.dark-mode .nav-links a:hover {
+  color: #2196f3;
+  transform: scale(1.1);
 }
