@@ -151,7 +151,7 @@ footer {
   text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 30px;
   padding-bottom: 4px;
 }
 
@@ -173,6 +173,9 @@ body.dark-mode .footer-container {
 .titulos-redirects {
   display: flex;
   flex-direction: row;
+  margin-top: 15px;
+  justify-content: center;
+  align-items: center;
 }
 
 .redirects-footer {
@@ -182,6 +185,14 @@ body.dark-mode .footer-container {
   padding-top: 20px;
   left: 260px;  
   gap: 5px;
+}
+
+.redirects-footer a:hover{
+  color: #2196f3;
+}
+
+body.dark-mode .redirects-footer a:hover{
+  color: #2196f3;
 }
 
 .titulos-footer {
@@ -210,4 +221,42 @@ body.dark-mode .footer-container {
 body.dark-mode .redirects-footer a {
   text-decoration: none;
   color: white;
+}
+
+
+.links-contactos {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 60px;
+  border-top: 3px solid lightgrey;
+  padding-top: 10px;
+  width: 80%;
+}
+
+.links-contactos img{
+  width: 50px;
+}
+
+.phone-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.phone-icon{
+  width: 30px;
+}
+
+.phone-number-footer img{
+  top: 4px; 
+  width: 30px;
+}
+
+.phone-number-footer{
+  padding-left: 5px; 
+}
+
+.ubicacion-footer{
+  padding-top: 15px;
 }
