@@ -25,3 +25,5 @@ document.addEventListener("DOMContentLoaded", function () {
     moveIndicator(activeLink);
   });
 });
+
+console.log("hola mundo")
